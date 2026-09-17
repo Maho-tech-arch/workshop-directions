@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Workshop Directions</title>
+
+  <title>Non-Equilibrium Physics of Non-Conservative Forces</title>
 
   <style>
     body {
       font-family: Arial, "Noto Sans JP", sans-serif;
-      max-width: 760px;
+      max-width: 800px;
       margin: 0 auto;
       padding: 30px 20px 60px;
-      line-height: 1.6;
+      line-height: 1.65;
       color: #222;
-      background: #f7f7f7;
+      background: #f5f5f5;
     }
 
     .card {
@@ -23,79 +24,187 @@
       border-radius: 12px;
     }
 
+    .header {
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
     h1 {
-      font-size: 2rem;
-      margin-top: 0;
+      font-size: 2.2rem;
+      line-height: 1.25;
+      margin: 0 0 15px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #555;
+      margin: 0;
     }
 
     h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
       margin-bottom: 5px;
     }
 
-    .japanese {
-      margin-top: 4px;
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 8px;
     }
 
-    .placeholder {
-      color: #0066cc;
+    .room-number {
+      font-size: 2rem;
       font-weight: bold;
+      margin: 15px 0 5px;
     }
 
     .important {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .japanese {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid #ddd;
+    }
+
+    .japanese-placeholder {
+      color: #0066cc;
+    }
+
+    .directions {
+      font-size: 1.05rem;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px 12px 40px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .room-number {
+        font-size: 1.8rem;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <div class="card">
-    <h1>Workshop Information</h1>
-    <div class="japanese">ワークショップのご案内</div>
+  <!-- TITLE -->
+  <div class="card header">
+
+    <h1>
+      Non-Equilibrium Physics of Non-Conservative Forces
+    </h1>
+
+    <p class="subtitle">
+      Workshop at the University of Stuttgart, 21.09.–23.09.
+    </p>
+
+    <div class="japanese">
+      <p class="japanese-placeholder">
+        [INSERT DEEPL JAPANESE TRANSLATION OF TITLE AND SUBTITLE HERE]
+      </p>
+    </div>
+
   </div>
 
-  <div class="card">
-    <h2>Lecture Hall</h2>
-    <div class="japanese">講義室</div>
 
-    <p class="important placeholder">
-      [LECTURE HALL / ROOM NUMBER]
+  <!-- SEMINAR ROOM -->
+  <div class="card">
+
+    <h2>Seminar Room</h2>
+
+    <div class="room-number">
+      57.06
+    </div>
+
+    <p>
+      Room 6 on the ground floor of Building 57
+      of the Natural Science Center II.
     </p>
+
+    <div class="japanese">
+      <p class="japanese-placeholder">
+        [INSERT DEEPL JAPANESE TRANSLATION OF THE SEMINAR ROOM INFORMATION HERE]
+      </p>
+    </div>
+
   </div>
 
-  <div class="card">
-    <h2>Workshop begins</h2>
-    <div class="japanese">ワークショップ開始時間</div>
 
-    <p class="placeholder">
-      [DATE AND START TIME]
+  <!-- WORKSHOP START -->
+  <div class="card">
+
+    <h2>Workshop Start</h2>
+
+    <p class="important">
+      14:00
     </p>
+
+    <p>
+      The first talk will be given by
+      <strong>Andreas Dechant</strong> from
+      <strong>Kyoto University</strong>.
+    </p>
+
+    <div class="japanese">
+      <p class="japanese-placeholder">
+        [INSERT DEEPL JAPANESE TRANSLATION OF THE WORKSHOP START INFORMATION HERE]
+      </p>
+    </div>
+
   </div>
 
+
+  <!-- DIRECTIONS -->
   <div class="card">
-    <h2>First Talk</h2>
-    <div class="japanese">最初の講演</div>
 
-    <p class="placeholder">
-      [NAME OF FIRST SPEAKER]
-    </p>
-  </div>
+    <h2>Directions from the Train Station</h2>
 
-  <div class="card">
-    <h2>Directions from the train station</h2>
-    <div class="japanese">駅からの道順</div>
-
-    <h3>English</h3>
-
-    <p class="placeholder">
-      [SHORT DIRECTIONS FROM THE TRAIN STATION TO THE LECTURE HALL]
+    <p class="directions">
+      Go up the stairs until you reach fresh air. You should now be
+      standing in the middle of the campus, and you should be able to
+      see our library.
     </p>
 
-    <h3>日本語</h3>
-
-    <p class="placeholder">
-      [JAPANESE TRANSLATION OF THE DIRECTIONS]
+    <p class="directions">
+      Once you have located the library, walk past it with the library
+      on your left. Continue straight until you reach a building with
+      blue doors.
     </p>
+
+    <p class="directions">
+      Enter through the doors and go straight ahead and up the first
+      set of stairs. Then turn right. You should see another set of
+      doors — do not walk through them, but turn right just before
+      them.
+    </p>
+
+    <p class="directions important">
+      You have reached your destination.
+    </p>
+
+    <div class="japanese">
+
+      <h3>日本語</h3>
+
+      <p class="japanese-placeholder">
+        [INSERT DEEPL JAPANESE TRANSLATION OF THE DIRECTIONS HERE]
+      </p>
+
+    </div>
+
   </div>
 
 </body>
